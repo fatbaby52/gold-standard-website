@@ -6,6 +6,7 @@ import {
   Instagram,
   ExternalLink,
 } from "lucide-react";
+import { TriviaBox } from "@/components/TriviaBox";
 
 const shows = [
   {
@@ -167,6 +168,9 @@ export default function HomePage() {
           ))}
         </div>
       </section>
+
+      {/* Trivia */}
+      <TriviaBox />
 
       {/* Social Links */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6">
